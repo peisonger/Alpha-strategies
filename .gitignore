@@ -1,0 +1,10 @@
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+
+# 로컬 시장 데이터(CSV·Parquet·zip 등) — 용량·재배포 이슈로 저장소에 포함하지 않음
+data/*
+!data/.gitkeep
